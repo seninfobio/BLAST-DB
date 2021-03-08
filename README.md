@@ -24,3 +24,6 @@ blastx -num_threads 64 \
 [Comprehensive Analysis of Non Redundant Protein Database](https://assets.researchsquare.com/files/rs-54568/v1_stamped.pdf)
 
 [TAIR Protein sequences](https://www.arabidopsis.org/download_files/Genes/TAIR10_genome_release/TAIR10_blastsets/TAIR10_pep_20110103_representative_gene_model_updated)
+
+[NCBI nr Database](https://ftp.ncbi.nlm.nih.gov/blast/db/FASTA/)
+
