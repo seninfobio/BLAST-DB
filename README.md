@@ -12,6 +12,7 @@ blastx -num_threads 64 \
 
 
 #Create nr_database
+
 makeblastdb -in nr -dbtype prot &>log &
 
 
