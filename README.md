@@ -16,7 +16,7 @@ makeblastdb -in nr -dbtype prot &>log &
 
 #Run database
 blastx -num_threads 64 \
--qurey alatum.transcripts.fasta \
+-query alatum.transcripts.fasta \
 -db /NABIC/HOME/senthil/002_DB/nr \
 -out nr.xml -outfmt 5 &>log &
 
