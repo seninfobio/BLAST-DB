@@ -8,7 +8,7 @@ wget ftp://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/c
 wget ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/uniprot_trembl.fasta.gz &>log.trembldb &
 
 [Biostar reference]
-~~curl -o plant.#1.protein.faa.gz ftp://ftp.ncbi.nlm.nih.gov/refseq/release/plant/plant.\[1-198\].protein.faa.gz
+```curl -o plant.#1.protein.faa.gz ftp://ftp.ncbi.nlm.nih.gov/refseq/release/plant/plant.\[1-198\].protein.faa.gz
             
   [uniprot_plant proteins](http://www.uniprot.org/uniprot/?query=taxonomy%3A%22Viridiplantae+[33090]%22+keyword%3A%22Complete+proteome+[KW-0181]%22)
   
