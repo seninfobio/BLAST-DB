@@ -1,7 +1,7 @@
 # BLAST-DB
-wget ftp://ftp.ncbi.nlm.nih.gov/blast/db/FASTA/nr.gz && gunzip nr.gz &>log.nrdb &
+>wget ftp://ftp.ncbi.nlm.nih.gov/blast/db/FASTA/nr.gz && gunzip nr.gz &>log.nrdb &
 
-wget ftp://ftp.ncbi.nlm.nih.gov/blast/db/FASTA/swissprot.gz && gunzip swissprot.gz &> log.swissprotdb &
+>wget ftp://ftp.ncbi.nlm.nih.gov/blast/db/FASTA/swissprot.gz && gunzip swissprot.gz &> log.swissprotdb &
 
 wget ftp://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/uniprot_sprot.fasta.gz &>log.uniprotdb &
 
