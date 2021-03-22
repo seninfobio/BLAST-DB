@@ -9,6 +9,10 @@ wget ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complet
 
 [Biostar reference]
       curl -o plant.#1.protein.faa.gz ftp://ftp.ncbi.nlm.nih.gov/refseq/release/plant/plant.\[1-87\].protein.faa.gz
+            
+  [uniprot_plant proteins](http://www.uniprot.org/uniprot/?query=taxonomy%3A%22Viridiplantae+[33090]%22+keyword%3A%22Complete+proteome+[KW-0181]%22)
+  
+
 
 
 #Create uniprot_database
