@@ -7,6 +7,9 @@ wget ftp://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/c
 
 wget ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/uniprot_trembl.fasta.gz &>log.trembldb &
 
+[Biostar reference]
+      curl -o plant.#1.protein.faa.gz ftp://ftp.ncbi.nlm.nih.gov/refseq/release/plant/plant.\[1-87\].protein.faa.gz
+
 
 #Create uniprot_database
 makeblastdb -in uniprot_sprot.fasta -dbtype prot &>log &
